@@ -52,3 +52,17 @@ For instance, the same single integer may not appear twice in the same row, colu
   1. [Board Generator creates a well-constructed puzzle](http://zhangroup.aporc.org/images/files/Paper_3485.pdf)
     *With varying degrees of difficulty
   2. Board Solver or helper function(fill in 1 square)
+
+###Tools
+*HTML
+*CSS/SASS
+
+
+######Font
+[Maven Pro Open Sans](https://www.google.com/fonts/specimen/Maven+Pro#charset)
+
+######Colors
+*Dark-Blue - #070716
+*Light-Blue - #1FBAD6
+*Off-Black - #080810
+*Off-White - #F9F9F9
