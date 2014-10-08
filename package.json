@@ -1,0 +1,29 @@
+{
+  "name": "Sudoku.js",
+  "version": "1.0.1",
+  "description": "A Sudoku game in HTML, CSS and JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wcjohnson11/Sudoku.js.git"
+  },
+  "keywords": [
+    "Sudoku"
+  ],
+  "author": "William Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wcjohnson11/Sudoku.js/issues"
+  },
+  "homepage": "https://github.com/wcjohnson11/Sudoku.js",
+  "dependencies": {
+    "gulp": "^3.8.8",
+    "browser-sync": "^1.5.5",
+    "run-sequence": "^1.0.1",
+    "del": "^0.1.3",
+    "psi": "^0.1.2"
+  }
+}

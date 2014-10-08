@@ -3,8 +3,16 @@ Sudoku.js
 
 functional and stylized Sudoku game with HTML, CSS, JS
 
+###Set up
+  1. Install Dependencies with npm 'npm install'
+  2. Install Gulp globally if you don't already have it 'npm install -g gulp'
+  3. Run 'gulp serve' to host the app
+
+
 ###About
 Sudoku is a game that I've only had a passing experience with(when on an airplane w/o a book) but it seemed like a nice little engineering challenge to do a responsive version with HTML, CSS and JS to showcase my ability to architect modular, performant Javascript code with well-structured and flexible CSS.
+
+
 State will be stored directly in the browser, *'Look ma, no server!'*
 
 [Sudoku on Wikipedia](http://en.wikipedia.org/wiki/Sudoku)
@@ -54,8 +62,11 @@ For instance, the same single integer may not appear twice in the same row, colu
   2. Board Solver or helper function(fill in 1 square)
 
 ###Tools
-*HTML
-*CSS/SASS
+  *HTML
+  *CSS/SASS
+  *Tests with Mocha/Chai
+  *Gulp
+  *Google Starter Kit
 
 
 ######Font
