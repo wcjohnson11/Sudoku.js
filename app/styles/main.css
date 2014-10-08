@@ -8,7 +8,8 @@ body {
   padding: 0;
 }
 
-body {
+
+body { 
   position: relative;
   overflow: hidden;
   background: #F9F9F9 url(https://d1a3f4spazzrp4.cloudfront.net/web-fresh/pattern-grid@1x.jpg) repeat left top;
@@ -16,13 +17,13 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+
 header {
   position: relative;
   width: 100%;
   text-align: center;
   overflow: hidden;
   color: #14BAD6;
-  background: #080810 url(https://d1a3f4spazzrp4.cloudfront.net/web-fresh/pattern-grid-dark@1x.gif) repeat left top;
+  background: #080810 url(https://d1a3f4spazzrp4.cloudfront.net/web-fresh/pattern-grid-dark@1x.gif) repeat left top;  
   background-size: 18px 18px;
 }
-
