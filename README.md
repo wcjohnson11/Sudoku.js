@@ -60,13 +60,13 @@ For instance, the same single integer may not appear twice in the same row, colu
   1. [Board Generator creates a well-constructed puzzle](http://zhangroup.aporc.org/images/files/Paper_3485.pdf)
     *With varying degrees of difficulty
   2. Board Solver or helper function(fill in 1 square)
+  3. Store user's game state in MongoDB
 
 ###Tools
   *HTML
   *CSS/SASS
   *Tests with Mocha/Chai
   *Gulp
-  *Google Starter Kit
 
 
 ######Font
