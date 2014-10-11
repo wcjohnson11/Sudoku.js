@@ -27,3 +27,21 @@ header {
   background: #080810 url(https://d1a3f4spazzrp4.cloudfront.net/web-fresh/pattern-grid-dark@1x.gif) repeat left top;  
   background-size: 18px 18px;
 }
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.sudokuBoard {
+  background: #070716;
+}
+
+.evenSubGrid {
+  background: #1FBAD6;
+}
+
+.oddSubGrid {
+  background: #F9F9F9;
+}
+
