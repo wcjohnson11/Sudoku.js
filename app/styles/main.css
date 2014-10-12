@@ -31,10 +31,12 @@ header {
 .container {
   width: 100%;
   height: auto;
+  position: relative;
 }
 
 .sudokuBoard {
   background: #070716;
+  position: relative;
 }
 
 .evenSubGrid {
@@ -43,5 +45,9 @@ header {
 
 .oddSubGrid {
   background: #F9F9F9;
+}
+
+input:required:invalid, input:focus:invalid {
+  background: red;
 }
 

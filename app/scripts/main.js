@@ -19,13 +19,11 @@ var Board = function (n) {
     // Create the columns and individual cells
     for (var col = 0; col < n; col++) {
 
-      // Constrain the input
+      // Constrain the input  
       $matrix[row][col] = $('<input>')
                           .data('row', row)
                           .data('col', col)
-                          .attr('type', 'number')
-                          .attr('min', '1')
-                          .attr('max', '9');
+                          .attr('pattern', '[1-9]{1}');
       $tableData = $('<td>').append($matrix[row][col]);
       
       // Assign sub-grids for design
