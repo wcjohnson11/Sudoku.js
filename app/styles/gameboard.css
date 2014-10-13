@@ -1,8 +1,8 @@
 @media screen and (max-width: 40.5rem) {
   .sudokuBoard input {
-    width: 1.75rem;
-    height: 1.75rem;
-    font-size: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 

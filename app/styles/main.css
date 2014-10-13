@@ -38,3 +38,8 @@ header h1 {
   content: '';
 }
 
+.dashboard {
+  color: #14BAD6;
+  text-align: center;
+}
+
