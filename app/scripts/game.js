@@ -25,15 +25,6 @@ var sudokuSingleton = (function() {
       solveBoard: function () {
 
       },
-
-      // Storing values
-      storeValue: function (e) {
-        var val = $.trim($(e.currentTarget).val()),
-        row = $(e.currentTarget).data('row'),
-        col = $(e.currentTarget).data('col'),
-        validMove = true;
-      },
-
       // Validation methods
       checkColumn: function (colIndex) {
       },
@@ -73,7 +64,8 @@ var sudokuSingleton = (function() {
             this.$matrix[row][col] = $('<input>')
                                 .data('row', row)
                                 .data('col', col)
-                                .attr('pattern', '[1-9]{1}');
+                                .attr('pattern', '[1-9]{1}')
+                                .on('keyup', this.storeValue.bind(this));
             this.$tableData = $('<td>').append(this.$matrix[row][col]);
             
             // Assign sub-grids for design
@@ -91,6 +83,12 @@ var sudokuSingleton = (function() {
           this.$table.append(this.$tableRow);
         }
         return this.$table;
+      },
+      storeValue: function (e) {
+        var val = $.trim($(e.currentTarget).val()),
+        row = $(e.currentTarget).data('row'),
+        col = $(e.currentTarget).data('col'),
+        validMove = true;
       }
     };
 
