@@ -1,0 +1,47 @@
+@media screen and (max-width: 40.5rem) {
+  .sudokuBoard input {
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 40.5rem) {
+  .sudokuBoard input {
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+  }
+}
+
+.sudokuBoard {
+  position: relative;
+  display: table;
+  margin: auto;
+  border-collapse: collapse;
+  vertical-align: middle;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.sudokuBoard input {
+  background: #080810 url(https://d1a3f4spazzrp4.cloudfront.net/web-fresh/pattern-grid@1x.jpg) repeat left top;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+.evenSubGrid input {
+  background: #1FBAD6;
+}
+
+.oddSubGrid input {
+  background: #F9F9F9 url(https://d1a3f4spazzrp4.cloudfront.net/web-fresh/pattern-grid@1x.jpg) repeat left top;
+}
+
+input:required:invalid, input:focus:invalid {
+  background: red;
+}

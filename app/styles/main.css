@@ -8,12 +8,10 @@ body {
   padding: 0;
 }
 
-
 body { 
   position: relative;
   overflow: hidden;
-  background: #F9F9F9 url(https://d1a3f4spazzrp4.cloudfront.net/web-fresh/pattern-grid@1x.jpg) repeat left top;
-  background-size: 18px 18px;
+  background: #F9F9F9 url(https://d1a3f4spazzrp4.cloudfront.net/web-fresh/pattern-grid-dark@1x.gif) repeat left top;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -24,30 +22,19 @@ header {
   text-align: center;
   overflow: hidden;
   color: #14BAD6;
-  background: #080810 url(https://d1a3f4spazzrp4.cloudfront.net/web-fresh/pattern-grid-dark@1x.gif) repeat left top;  
-  background-size: 18px 18px;
+  background: #F9F9F9 url(https://d1a3f4spazzrp4.cloudfront.net/web-fresh/pattern-grid-dark@1x.gif) repeat left top;  
+  background-size: auto;
+}
+
+header h1 {
+  margin-top: 0;
+  border: solid;
 }
 
 .container {
   width: 100%;
-  height: auto;
-  position: relative;
-}
-
-.sudokuBoard {
-  background: #070716;
-  position: relative;
-}
-
-.evenSubGrid {
-  background: #1FBAD6;
-}
-
-.oddSubGrid {
-  background: #F9F9F9;
-}
-
-input:required:invalid, input:focus:invalid {
-  background: red;
+  height: 100%;
+  vertical-align: middle;
+  content: '';
 }
 
