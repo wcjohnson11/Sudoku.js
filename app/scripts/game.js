@@ -85,10 +85,22 @@ var sudokuSingleton = (function() {
         return this.$table;
       },
       storeValue: function (e) {
+      	// Get values of td, row, and col of 'keyup' cell
         var val = $.trim($(e.currentTarget).val()),
         row = $(e.currentTarget).data('row'),
         col = $(e.currentTarget).data('col'),
         validMove = true;
+
+        // Calculate which subGrid it's in and what
+        // cell in that grid 
+        subGridRow = Math.floor( row / 3 );
+        subGridCol = Math.floor( col / 3 );
+        cellIDInSubGrid = ( row % 3 ) * 3 + ( col % 3 );
+
+
+      },
+      validateValue: function (val, rowID, colID) {
+
       }
     };
 
